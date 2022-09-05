@@ -7,3 +7,4 @@ for poke_number in range(1, 152):
 #poke_type = r.json()['types'][1]['type']['name']
     poke_url = r.json()['sprites']['front_default']
     print([poke_name, poke_url])
+    
